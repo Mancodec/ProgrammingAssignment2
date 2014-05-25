@@ -36,8 +36,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The following function computes the inverse of 
-##the matrix, x created with the above function.
+## The following function takes as input the list
+##created by makeCacheMatrix. It computes the inverse of 
+##the matrix, x which was input to makeCacheMatrix.
 ##However, it first checks to see if the inverse has 
 ##already been computed. If so,t gets the inverse 
 ##from the cache, skips the computation and returns
